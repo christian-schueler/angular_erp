@@ -10,10 +10,14 @@
   },
   "private": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "packageManager": "npm@10.8.2",
 =======
   "packageManager": "npm@11.11.1",
 >>>>>>> f630513 (initial commit)
+=======
+  "packageManager": "npm@10.8.2",
+>>>>>>> 588c789 (update OS)
   "dependencies": {
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
@@ -26,12 +30,17 @@
   },
   "devDependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@angular/build": "^21.2.3",
     "@angular/cli": "^21.2.3",
 =======
     "@angular/build": "^21.2.4",
     "@angular/cli": "^21.2.4",
 >>>>>>> f630513 (initial commit)
+=======
+    "@angular/build": "^21.2.3",
+    "@angular/cli": "^21.2.3",
+>>>>>>> 588c789 (update OS)
     "@angular/compiler-cli": "^21.2.0",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",

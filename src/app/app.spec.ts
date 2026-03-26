@@ -19,9 +19,13 @@ describe('App', () => {
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular_erp');
 =======
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-erp');
 >>>>>>> f630513 (initial commit)
+=======
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular_erp');
+>>>>>>> 588c789 (update OS)
   });
 });

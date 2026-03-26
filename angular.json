@@ -7,10 +7,14 @@
   "newProjectRoot": "projects",
   "projects": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "angular_erp": {
 =======
     "angular-erp": {
 >>>>>>> f630513 (initial commit)
+=======
+    "angular_erp": {
+>>>>>>> 588c789 (update OS)
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -61,6 +65,7 @@
           "configurations": {
             "production": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "buildTarget": "angular_erp:build:production"
             },
             "development": {
@@ -71,6 +76,12 @@
             "development": {
               "buildTarget": "angular-erp:build:development"
 >>>>>>> f630513 (initial commit)
+=======
+              "buildTarget": "angular_erp:build:production"
+            },
+            "development": {
+              "buildTarget": "angular_erp:build:development"
+>>>>>>> 588c789 (update OS)
             }
           },
           "defaultConfiguration": "development"

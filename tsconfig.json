@@ -3,12 +3,26 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    /* error preventing through must have checking */
     "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnusedLabels": false,
+    "noUncheckedSideEffectImports": true,
     "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
     "skipLibCheck": true,
+    /* nice to have (optional), but highly suggested checking */
+    "noUncheckedIndexedAccess": false,
+    "noPropertyAccessFromIndexSignature": true,
+    "erasableSyntaxOnly": true,
+    /* personal preference checking */
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "exactOptionalPropertyTypes": true,
+    /* temporarly set true for debugging */
+    "noErrorTruncation": false,
+    /* checks end */
     "isolatedModules": true,
     "experimentalDecorators": true,
     "importHelpers": true,
