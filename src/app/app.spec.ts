@@ -18,6 +18,10 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
+<<<<<<< HEAD
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular_erp');
+=======
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-erp');
+>>>>>>> f630513 (initial commit)
   });
 });

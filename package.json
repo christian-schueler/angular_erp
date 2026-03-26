@@ -9,7 +9,11 @@
     "test": "ng test"
   },
   "private": true,
+<<<<<<< HEAD
   "packageManager": "npm@10.8.2",
+=======
+  "packageManager": "npm@11.11.1",
+>>>>>>> f630513 (initial commit)
   "dependencies": {
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
@@ -21,8 +25,13 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@angular/build": "^21.2.3",
     "@angular/cli": "^21.2.3",
+=======
+    "@angular/build": "^21.2.4",
+    "@angular/cli": "^21.2.4",
+>>>>>>> f630513 (initial commit)
     "@angular/compiler-cli": "^21.2.0",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",
